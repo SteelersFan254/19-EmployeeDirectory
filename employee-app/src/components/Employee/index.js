@@ -1,4 +1,5 @@
 import React, { useContext } from 'react';
+import "./style.css";
 
 export default function Table(props) {
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import Employee from '../Employee';
+import "./style.css"
 
 export default function Table({ data }) {
     const arr = [
@@ -48,7 +49,7 @@ export default function Table({ data }) {
     return (
         <div>
             <div className="table">
-                <div className="titlebox">
+                <div className="titleBox">
                     <div>Name</div>
                     <div>Role</div>
                     <div>Department</div>
